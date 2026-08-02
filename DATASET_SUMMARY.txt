@@ -1,0 +1,34 @@
+night_person_car_3k dataset summary
+
+[train]
+images: 2400
+person_images: 719
+car_images: 2389
+both_images: 708
+person_boxes: 2392
+car_boxes: 20957
+
+[val]
+images: 300
+person_images: 213
+car_images: 295
+both_images: 208
+person_boxes: 736
+car_boxes: 2591
+
+[test]
+images: 300
+person_images: 107
+car_images: 297
+both_images: 104
+person_boxes: 392
+car_boxes: 2551
+
+[total]
+images: 3000
+person_boxes: 3520
+car_boxes: 26099
+
+source mapping:
+- pedestrian -> person
+- car -> car

@@ -1,0 +1,23 @@
+# Training outputs and local caches
+runs/
+runs_local/
+wandb/
+mlruns/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local logs and temporary exports
+*.log
+*.tmp
+*.bak
